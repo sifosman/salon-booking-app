@@ -14,7 +14,6 @@ import {
   Avatar,
   Chip,
   Button,
-  IconButton,
   Divider,
   LinearProgress,
   Dialog,
@@ -30,8 +29,6 @@ import {
   Check,
   Add,
   ContentCut,
-  Spa,
-  AccessTime,
 } from '@mui/icons-material';
 import { Calendar, dateFnsLocalizer } from 'react-big-calendar';
 import format from 'date-fns/format';
@@ -140,9 +137,8 @@ const quickActions = [
 ];
 
 const DashboardPage = () => {
-  const [selectedDate, setSelectedDate] = useState(new Date());
-  const [openBookingDialog, setOpenBookingDialog] = useState(false);
   const [selectedSlot, setSelectedSlot] = useState<{ start: Date; end: Date } | null>(null);
+  const [openBookingDialog, setOpenBookingDialog] = useState(false);
   const [bookingForm, setBookingForm] = useState({
     customerName: '',
     service: '',

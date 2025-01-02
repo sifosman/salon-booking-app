@@ -18,15 +18,11 @@ import {
   List,
   ListItem,
   ListItemText,
-  ListItemButton,
   Stack,
-  Divider,
   Avatar,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import StarIcon from '@mui/icons-material/Star';
-import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
